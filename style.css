@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a {
+    color: #88abca;
+    font-weight: 700;
+}
+
+
+.header {
+    height: 60px;
+    color: white;
+    background-color: black;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+.columns {
+    display: flex;
+}
+
+.content-box {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.user-card {
+    height: 300px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user-card img {
+    width: 80px;
+    height: 80px;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.friends {
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.friend-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.friend-status {
+    display: flex;
+    align-items: center;
+}
+
+.friend-status p {
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.like-btn {
+    width: 60px;
+    height: 30px;
+    background-color: #ffd966;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #999;
+    font-weight: 700;
+    cursor: pointer;
+}

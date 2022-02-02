@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linking Likes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Network</h1>
+        </div>
+
+        <div class="title">
+            <h1>Your Feed</h1>
+        </div>
+
+        <div class="columns">
+            <div class="col-2">
+                <div class="content-box user-card">
+                    <img src="icons/user-circle.png" alt="user-image">
+                    <a href="#">
+                        <p>Add on avatar</p>
+                    </a>
+                    <h2>Annie Jung</h2>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="content-box friends">
+                    <div class="friend-title">
+                        <h2>Neil M</h2>
+                        <div class="friend-status">
+                            <p><span id="counter-1">9</span> like(s)</p>
+                            <button class="like-btn" onclick="like('#counter-1')">Like</button>
+                        </div>
+                    </div>
+                    <div class="friend-comment">
+                        <p>I just set up thie new discord bot, let me know what you all think
+                            <a href="#">link</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="content-box friends">
+                    <div class="friend-title">
+                        <h2>Nichole K</h2>
+                        <div class="friend-status">
+                            <p><span id="counter-2">12</span> like(s)</p>
+                            <button class="like-btn" onclick="like('#counter-2')">Like</button>
+                        </div>
+                    </div>
+                    <div class="friend-comment">
+                        <p>Just finished my
+                            <a href="#">next comic</a>, check it out
+                        </p>
+                    </div>
+                </div>
+                <div class="content-box friends">
+                    <div class="friend-title">
+                        <h2>Jim R</h2>
+                        <div class="friend-status">
+                            <p><span id="counter-3">12</span> like(s)</p>
+                            <button class="like-btn" onclick="like('#counter-3')">Like</button>
+                        </div>
+                    </div>
+                    <div class="friend-comment">
+                        <p>
+                            I can't stop listening to the
+                            <a href="#">new album </a>. Who else is liking it?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
